@@ -1,0 +1,70 @@
+.laptop-container{
+    display:flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    gap:30px;
+}
+.laptop-features>li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+img{
+    width:200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.pricing-plan{
+    background-color: #f2f2f2;;
+    width:400px;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+    flex:1;
+}
+.laptop-name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;;
+}
+.laptop-price{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button{
+    background-color: orange;
+    border:white;
+    padding:5px;
+    width:50px;
+    border-radius: 5px;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+    height:10vh;
+    padding: 5px;;
+}
+h1{
+    margin:10px;
+}
+@media (max-width:800px)
+{
+    header{
+        width:100%;
+        border-radius: 10px;
+    }
+    .laptop-container{
+        margin-top:10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 90vh;
+        flex:0 1 auto;
+        gap:30px;
+    }
+    .pricing-plan{
+        max-width: 100%;
+    }
+}
